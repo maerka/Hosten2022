@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\erlend\onedrive - ntnu\oving1\oppg2\oppg2\source.cpp(88): warning C4715: 'findGreatestDivisor': not all control paths return a value
+  oppg2.vcxproj -> C:\Users\Erlend\OneDrive - NTNU\Oving1\oppg2\Debug\oppg2.exe
+  oppg2.vcxproj -> C:\Users\Erlend\OneDrive - NTNU\Oving1\oppg2\Debug\oppg2.pdb (Partial PDB)
