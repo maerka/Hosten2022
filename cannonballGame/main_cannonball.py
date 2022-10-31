@@ -3,6 +3,9 @@ import cannonball as cb
 
 cb.playGame()
 
+# Everything under this line is used for testing the functions in the file cannonball.py. 
+# In the end I added a function for managing the game. 
+# ----------- *** -----------
 
 # # INITIAL CONDITIONS
 # #target position
