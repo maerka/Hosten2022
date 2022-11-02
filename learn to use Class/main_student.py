@@ -2,7 +2,7 @@ from student import Student
 
 def studentFights():
     print('THE DAY AFTER YESTERDAY')
-
+    # Student __init__(name, sleep, hangover):
     Troll = Student('Troll', 4,0)
     Orc = Student('Orc', 6,1)
     TrollJeger = Student('Trolljegeren', 2,2)
