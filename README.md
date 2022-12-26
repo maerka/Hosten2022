@@ -5,7 +5,7 @@ PYTHON - klasser
 Hovedmålet har vært å lære å bruke klasser og objekter. I mappa finner du:
 
 - "Santa Game"
-      Her har jeg brukt pakken "pygame" til å lage grafikk. https://www.pygame.org/wiki/GettingStarted. Planen er å bruke dette videre i prosjektet CannonBall og diverse undervisningsopplegg (les videre). Pygame må installeres for å kunne kjøre koden. 
+      - Her har jeg brukt pakken "pygame" til å lage grafikk. https://www.pygame.org/wiki/GettingStarted. Planen er å bruke dette videre i prosjektet CannonBall og diverse undervisningsopplegg (les videre). Pygame må installeres for å kunne kjøre koden. 
 - "BlackJack" 
       inneholder 3 filer: Card, cardDeck og main_BlackJack. Sammen utgjør det et spillet BlackJack (uten grafikk). 
 - "CannonBall"
