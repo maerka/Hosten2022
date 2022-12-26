@@ -1,0 +1,21 @@
+README_SANTA GAME
+Spillet er ikke ferdig (per 26.12.22). Neste steg er bruke klasser til å gjøre koden mer ryddig. 
+
+Her har jeg brukt pakken "pygame" til å lage et enkelt spill med grafikk. https://www.pygame.org/wiki/GettingStarted. 
+Pygame må installeres for å kunne kjøre koden. Målet var å lære mekanismene i pygame til senere prosjekter. 
+
+
+
+Spillet viser et reinsdyr som skal springer bortover. Dersom det kommer borti nissen, er spillet over.
+Programmets spilløkke har 3 ulike stauser:
+	game_state == 0: Meny
+	game_state == 1: Spillet kjører som normalt
+	game_state == 2: Reinsdyr har truffet nisse. Kjører game over-animasjon. 
+Input fra tastatur har ulike funksjoner i de ulike spillstatusene. 
+
+
+
+Vanskeligere versjon av spillet
+Funksjonen obstacle_movement lager flere nisser som sklir bortover. Fjern kommentaren
+	#screen.blit(santa_surf, obs_rect)
+om de skal vises. Da får man et spill med mange nisser, men bare én er ekte. 
