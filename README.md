@@ -20,7 +20,7 @@ PYTHON - Hovedmålet har vært å lære å bruke klasser og objekter. I mappa fi
 - "Evolusjon"
       Rettet mot undervisning. Planen er simulere en evolusjonsprosess. "evolusjon2_birds" er et pilotprosjekt for selve logikken bak evolusjonen. Neste steg er lage fuglene (og andre dyr) som klasser. Da blir det lettere å legge til grafikk for å gjøre det mer tilgjengelig for elvene. Til slutt vil jeg utvide programmet slik at flere parametere kan påvirke utfallet av evolusjonen. 
  
-C++ OG C#
+C++ og C#
 - C# 
       Et skript hvor jeg har prøvd meg ut med syntaks for C#.
 - C++
