@@ -1,10 +1,11 @@
-# https://www.youtube.com/watch?v=AY9MnQ4x3zk
-# https://docs.spyder-ide.org/5/faq.html#using-packages-installer
-
 import pygame
 from sys import exit
 from random import randint
 
+# ------- *** ------- FUNCTIONS ------- *** --------
+
+
+# Takes in 2 rectangles and returns 1 if they are overlapping. 0 if not. 
 def detectCrash (rec1, rec2):
     #Works only for rectangles
     crash_x =0
@@ -45,7 +46,8 @@ def detectCrash (rec1, rec2):
     if crash_x and crash_y: return 1
     else: return 0
         
-    
+
+# Not in use. Makes the reindeer jump automatically when approaching the santa.     
 def reinAutoJump(jump):  
     #jump = 0, not jumping
     #jump = 1: upwards
@@ -68,6 +70,8 @@ def reinAutoJump(jump):
         reindeer1_rect.left = 860
     return jump
 
+
+# Handles the score
 def display_score(game_state, score):        
     if game_state == 1:
         score = pygame.time.get_ticks() - start_time
@@ -78,26 +82,26 @@ def display_score(game_state, score):
     screen.blit(score_surf,score_rect)
     return score
 
+
+# Many foes (santas). Takes in a list with all the santas and handles the movement of them. 
 def obstacle_movement(obs_list):
     if obs_list:
         for obs_rect in obs_list:
             obs_rect.x += 2
-            screen.blit(santa_surf, obs_rect)
+            #screen.blit(santa_surf, obs_rect)
             obs_list = [obs for obs in obs_list if obs.x < 900]
         return obs_list
     else: return []
 
-#def gravity(rec): # not used
-    # if rec.bottom <= 310:
-        # rec.bottom += 1
 
-
-                    
-
+# Game Over? Checks if reindeer overlaps with santa and handles the following animation.
 def reinCrash():
     if detectCrash(reindeer1_rect, santa_rect):
         return pygame.transform.rotate(reindeer1_surface, -130)
     else: return 0    
+
+
+# ------- *** ------- SETTING UP THE GAME ------- *** --------
     
 # Game logics
 pygame.init()
@@ -107,6 +111,12 @@ clock = pygame.time.Clock()
 game_state = 0 # 0= new game? 1= game running 2= animation for game over 
 start_time = 0
 score = 0
+
+#Timer
+obstacle_timer = pygame.USEREVENT + 1
+pygame.time.set_timer(obstacle_timer, 2000)
+keys = pygame.key.get_pressed()
+
 
 
 #TEST of function DETECT CRASH
@@ -120,7 +130,6 @@ detectCrash(surf1_r, surf2_r)
 
 
 
-
 # Colors: https://matplotlib.org/2.0.2/examples/color/named_colors.html
 background = pygame.image.load('graphics/bakgrunn.png').convert_alpha() #(860x343) 
 ground_brown = pygame.Surface((860,70))
@@ -129,7 +138,7 @@ ground_green = pygame.Surface((860,20))
 ground_green.fill('olivedrab')
 
 
-#Text
+# Text on display
 font = pygame.font.Font(None, 50) #font of text -> (font type, font size) font type can be imported from file
 text_surface = font.render('God jul!',True,'red') #(text, antialiasing - smootening, color)
 menu_start_text = font.render('Start game', True, 'Red')
@@ -137,25 +146,22 @@ menu_start = menu_start_text.get_rect(midbottom = (430, 180))
 menu_quit_text = font.render('Quit', True, 'red')
 menu_quit = menu_quit_text.get_rect(midbottom = (430, 230))
 
-#Santa
+
+# Foes and friends (all creatures)
+#Santa(s)
 santa_surf = pygame.image.load(('graphics/santa2.png')).convert_alpha() #convert makes png easier to handle
 santa_rect = santa_surf.get_rect(bottomleft = (200, 310))
-
 obstacle_rect_list = []
-
 
 #Reindeer
 reindeer1_surface = pygame.image.load('graphics/reindeer4.png').convert_alpha()
 reindeer1_rect = reindeer1_surface.get_rect(bottomleft = (700, 310))
 rein_gravity = 0
 
-#Timer
-obstacle_timer = pygame.USEREVENT + 1
-pygame.time.set_timer(obstacle_timer, 2000)
 
 
 
-keys = pygame.key.get_pressed()
+# ------- *** ------- RUNNING THE GAME ------- *** --------
 while True:
     
     # KEYS AND GAME LOGIC
@@ -201,7 +207,10 @@ while True:
                     exit()     
             #if event.type == pygame.MOUSEBUTTONDOWN:
             #    print('Mouse is moving')                    
-                
+  
+
+
+              
     #UPDATE ANIMATION            
     #1= game is running 2= game over animation
     if game_state == 1 or game_state == 2:
@@ -276,7 +285,5 @@ while True:
     
     pygame.display.update()
     clock.tick(60)
-        
 
-
-         
+    
