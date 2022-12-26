@@ -1,0 +1,20 @@
+readme_evolusjon1_birds
+
+HENSIKT
+Programmet er tiltenkt å kunne brukes i naturfag på sikt. Målet er simulere en evolusjonsprosess. 
+Dette skriptet er pilotprosjekt for selve logikken bak evolusjonen. Neste steg er lage fuglene (og andre dyr) som klasser. Da blir det lettere å legge til grafikk 
+for å gjøre det mer tilgjengelig for elvene. Til slutt vil jeg utvide programmet slik at flere parametere kan påvirke utfallet av evolusjonen og at det blir mer realistisk. 
+
+
+
+HVORDAN PROGRAMMET FUNGERER
+Programmet starter med en generasjon fugler i variabelen "gen1". Dette er bare en normalfordelt tallrekke der gjennomsnittet f.eks. er 50, som skal tilsvare en eller 
+annen farge. Basert på bakgrunnsfargen (f.eks. 60), simulerer programmet hvor mange fugler det vil være med ulike farger etter f.eks. 20 år(hundrer?). 
+
+Det er funksjonen "evolusjonslogikk(koloni, bakgrunnsfarge)" som bestemmer hvilke fugler som får avkom og blir med til neste år. Her kan man justere hvor
+fordelaktig det skal være å ha farge som er lik bakgrunnsfargen. Funksjonen returnerer det neste kullet. Det er en enkel logikk styrt av sannsynlighet. Har man farge som 
+er lik bakgrunnsfargen +- 5 har man f.eks. 60% sjanse for å overleve og få avkom. Avviker fargen mer, blir sannsynligheten mindre. 
+
+Det returnerte kullet (liste) lagres i variabelen alleGenerasjoner. Funksjonen "visHistogram" viser hvor mange fugler av hver farge kullet inneholder. Kullet sendes
+så tilbake til funksjonen "evolusjonslogikk" som igjen gir det neste kullet. 
+	
