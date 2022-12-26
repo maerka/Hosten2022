@@ -1,8 +1,7 @@
 # Hosten2022
 Dette er ting jeg har arbeidet med høsten 2022. Her laster jeg opp ferdige prosjekter. Denne høsten har jeg hovedsaklig jobbed med python, men også litt med C# og C++. 
 
-PYTHON - klasser
-Hovedmålet har vært å lære å bruke klasser og objekter. I mappa finner du:
+PYTHON - Hovedmålet har vært å lære å bruke klasser og objekter. I mappa finner du:
 
 - "Santa Game"
       Her har jeg brukt pakken "pygame" til å lage et enkelt spill med grafikk. https://www.pygame.org/wiki/GettingStarted. Planen er å bruke dette videre i prosjektet CannonBall og diverse undervisningsopplegg (les videre). Pygame må installeres for å kunne kjøre koden. 
