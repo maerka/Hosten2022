@@ -19,7 +19,7 @@ Hovedmålet har vært å lære å bruke klasser og objekter. I mappa finner du:
       - Program2 (student): Dette var første skript for å lære å skrive klasser i python. Programmet lager objekter av typen Student. Dagen derpå er blir deres 
       kampstyrke regnet ut fra søvn og hangover. Så sloss de til noen vinner. 
 - "Evolusjon"
-      Rettet mot undervisning. Planen er simulere en evolusjonsprosess. Dette var et pilotprosjekt for selve logikken bak prosesessen. Neste steg er legge til flere parametre samt å legge på grafikk for å gjøre det mer tilgjengelig for elvene. 
+      Rettet mot undervisning. Planen er simulere en evolusjonsprosess. "evolusjon2_birds" er et pilotprosjekt for selve logikken bak evolusjonen. Neste steg er lage fuglene (og andre dyr) som klasser. Da blir det lettere å legge til grafikk for å gjøre det mer tilgjengelig for elvene. Til slutt vil jeg utvide programmet slik at flere parametere kan påvirke utfallet av evolusjonen. 
  
 C++ OG C#
 - C# 
