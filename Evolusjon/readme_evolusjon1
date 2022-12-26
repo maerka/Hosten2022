@@ -18,3 +18,4 @@ er lik bakgrunnsfargen +- 5 har man f.eks. 60% sjanse for å overleve og få avk
 Det returnerte kullet (liste) lagres i variabelen alleGenerasjoner. Funksjonen "visHistogram" viser hvor mange fugler av hver farge kullet inneholder. Kullet sendes
 så tilbake til funksjonen "evolusjonslogikk" som igjen gir det neste kullet. 
 	
+MERK! Det er en bug i "visHistogram" som gjør at programmet krasjer når det blir få gjenlevende fugler.
