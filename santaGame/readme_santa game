@@ -1,12 +1,13 @@
 README_SANTA GAME
-Spillet er ikke ferdig (per 26.12.22). Neste steg er bruke klasser til å gjøre koden mer ryddig. 
+Spillet kommer i 2 versjoner: 
+- "SantaGame_without classes" ble fullført i desember. Det er skrevet uten bruk av klasser - altså veldig lite lesbar kode. '2
+- "SantaGame" er hovedversjonen og er skrevet med bruk av klasser. 
 
-Her har jeg brukt pakken "pygame" til å lage et enkelt spill med grafikk. https://www.pygame.org/wiki/GettingStarted. 
+I begger versjoner er basert på pakken "pygame" til å lage et enkelt spill med grafikk. https://www.pygame.org/wiki/GettingStarted. 
 Pygame må installeres for å kunne kjøre koden. Målet var å lære mekanismene i pygame til senere prosjekter. 
 
 
-
-Spillet viser et reinsdyr som skal springer bortover. Dersom det kommer borti nissen, er spillet over.
+Spillet viser et reinsdyr som skal springer bortover. Dersom det kommer borti nissen eller grinchen, er spillet over.
 Programmets spilløkke har 3 ulike stauser:
 	game_state == 0: Meny
 	game_state == 1: Spillet kjører som normalt
@@ -14,8 +15,7 @@ Programmets spilløkke har 3 ulike stauser:
 Input fra tastatur har ulike funksjoner i de ulike spillstatusene. 
 
 
-
-Vanskeligere versjon av spillet
+Vanskeligere versjon av spillet ("Santa game_without classes")
 Funksjonen obstacle_movement lager flere nisser som sklir bortover. Fjern kommentaren
 	#screen.blit(santa_surf, obs_rect)
 om de skal vises. Da får man et spill med mange nisser, men bare én er ekte. 
