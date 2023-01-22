@@ -1,4 +1,4 @@
-# Hosten2022
+# Hosten2022 og framover
 Dette er ting jeg har arbeidet med høsten 2022. Her laster jeg opp ferdige prosjekter. Denne høsten har jeg hovedsaklig jobbed med python, men også litt med C# og C++. 
 
 PYTHON - Hovedmålet har vært å lære å bruke klasser og objekter og grafikk. I mappa finner du:
