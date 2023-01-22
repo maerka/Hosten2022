@@ -20,6 +20,10 @@ PYTHON - Hovedmålet har vært å lære å bruke klasser og objekter og grafikk.
 - "Evolusjon"
       Rettet mot undervisning. Planen er simulere en evolusjonsprosess. "evolusjon2_birds" er et pilotprosjekt for selve logikken bak evolusjonen. Neste steg er lage fuglene (og andre dyr) som klasser. Da blir det lettere å legge til grafikk for å gjøre det mer tilgjengelig for elvene. Til slutt vil jeg utvide programmet slik at flere parametere kan påvirke utfallet av evolusjonen. 
  
+HTML og CSS
+For å forstå mer av rollen som front-end utvikler har jeg startet på et av kursene fra https://www.freecodecamp.org/learn/2022/responsive-web-design/. Filene i mappa viser ferdig produkter og hvor langt jeg har kommet til nå. 
+
+
 C++ og C#
 - C# 
       Et skript hvor jeg har prøvd meg ut med syntaks for C#.
