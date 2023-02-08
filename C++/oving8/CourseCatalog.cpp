@@ -13,8 +13,8 @@ CourseCatalog::CourseCatalog(map<string, int> catalogWithInt) {
 }
 
 void CourseCatalog::addCourse(string courseCode,string courseName) {
-	//catalog[courseCode] = courseName; //Denne koden oppdaterer med nytt navn dersom koden finnes fra før
-	catalog.insert(make_pair(courseCode, courseName)); // Denne koden oppdaterer IKKE dersom koden finnes fra før
+	//catalog[courseCode] = courseName; //Denne koden oppdaterer med nytt navn dersom koden finnes fra fï¿½r
+	catalog.insert(make_pair(courseCode, courseName)); // Denne koden oppdaterer IKKE dersom koden finnes fra fï¿½r
 }
 
 void CourseCatalog::removeCourse(string courseCode) {

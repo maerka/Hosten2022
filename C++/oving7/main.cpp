@@ -40,7 +40,7 @@ void main() {
 	Matrix matrise5 = Matrix(6, 5);
 	cout << "matrise5:" << endl;
 	cout << matrise5 << endl;
-	//matrise4 += matrise5; //Gir kjøretidsfeil
+	//matrise4 += matrise5; //Gir kjï¿½retidsfeil
 	
 	Matrix matrise6 = matrise2 + matrise4;
 	cout << "matrise6:" << endl;

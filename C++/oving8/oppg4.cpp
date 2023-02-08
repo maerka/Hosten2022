@@ -13,7 +13,7 @@ using namespace std;
 
 //Antall ganger hvert ord forekommer
 	// Lager en map. For hvert ord man leser, sjekker man om dette ordet er en medlem i map.
-	// 1) Ikke medlem -> legget det til + gi tilhørende verdi 1
+	// 1) Ikke medlem -> legget det til + gi tilhï¿½rende verdi 1
 	// 2) medlem -> oppdatere til verdien til ordet
 
 //Hvilket ord som er lengst
@@ -47,7 +47,7 @@ bool searchForWord(vector<string> longestWord, string word) {
 
 
 void textStatistics(string file) {
-	ifstream document; //Åpner dokument med feilsøk
+	ifstream document; //ï¿½pner dokument med feilsï¿½k
 	document.open(file);
 	if (document.fail()) {
 		cout << "Error opening file" << endl;
@@ -73,7 +73,7 @@ void textStatistics(string file) {
 			string word;
 			ss >> word;
 			word = eraseNotLetters(word); //Sletter spesialtegn med funksjon definert tidligere
-			if (word != "") { //If-setningen for å unngå å telle mellomrom
+			if (word != "") { //If-setningen for ï¿½ unngï¿½ ï¿½ telle mellomrom
 				wordCounter += 1;
 			}
 			cout << word << std::endl;

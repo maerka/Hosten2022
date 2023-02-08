@@ -84,7 +84,7 @@ Matrix Matrix::operator += (const Matrix rhs) {
 		return *this;
 	}
 	else {
-		// Gir kjøretidsfeil
+		// Gir kjï¿½retidsfeil
 		delete[] table;
 		this->table = nullptr;
 		return *this;

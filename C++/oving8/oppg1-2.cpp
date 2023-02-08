@@ -11,7 +11,7 @@ void writeToFile() {
 	output.open("file");
 	string newWord;
 	while (newWord != "quit") {
-		cout << "Skriv inn et ord som skrives til fil. Skriv quit for å avslutte." << endl;
+		cout << "Skriv inn et ord som skrives til fil. Skriv quit for ï¿½ avslutte." << endl;
 		cin >> newWord;
 		if (newWord != "quit") {
 			output << newWord << endl;
@@ -56,15 +56,15 @@ void letterStatistics(string filename) {
 	vector <int> letterStatistics(28, 0); //Lager vektor med plass til 27 bokstaver som settes til 0. Siste plass er forbeholdt totalt antall tegn.
 
 
-	while (!inputFile.eof()) { //Går gjennom hele dokumentet og fører statistikk linje for linje
+	while (!inputFile.eof()) { //Gï¿½r gjennom hele dokumentet og fï¿½rer statistikk linje for linje
 		getline(inputFile, line);
 		cout << line << endl;
 
 		int iterator = 1; //for letterStatistics
 		for (char testingLetter = 'a'; testingLetter <= 'z'; testingLetter++) {
 			int counter = 0;
-			for (int i = 0; i < line.size(); i++) { //Leser første linje og teller #a, #b, #c osv.
-				if (line[i] == testingLetter || line[i] == char(tolower(testingLetter))) { //SJekker for både små og store bokstaver
+			for (int i = 0; i < line.size(); i++) { //Leser fï¿½rste linje og teller #a, #b, #c osv.
+				if (line[i] == testingLetter || line[i] == char(tolower(testingLetter))) { //SJekker for bï¿½de smï¿½ og store bokstaver
 					counter += 1; //antall a,b,c osv.
 				}
 			}

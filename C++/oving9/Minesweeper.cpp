@@ -27,7 +27,7 @@ Minesweeper::Minesweeper(int width, int height, int mines) {
 	 //Lager vector2 med tilfeldige tall. vekotren har lengde lik antall miner.
 	std::vector<int> vector2;
 	for (int i = 0; i < mines; i++) {
-		//Plukker tilfeldige tall fra første vektor1. Dette elementet slettes, slik at vektor2 fylles med mines tilfeldige tall
+		//Plukker tilfeldige tall fra fï¿½rste vektor1. Dette elementet slettes, slik at vektor2 fylles med mines tilfeldige tall
 		int ranNum = std::rand() % (vector1.size()); //tilfeldige tall 0- (height*width-1) Refererer til elementnr. i vector1
 		vector2.push_back(vector1[ranNum]);
 		vector1.erase(vector1.begin()+ranNum);
@@ -92,7 +92,7 @@ void Minesweeper::openTile(int row, int col) {
 		int numberOfMines = numAdjacentMines(row, col);
 
 		
-		if (numAdjacentMines(row, col) == 0) { //Hvis ingen miner i nærheten
+		if (numAdjacentMines(row, col) == 0) { //Hvis ingen miner i nï¿½rheten
 			for (int i = row - 1; i <= row + 1; i++) {
 				for (int j = col - 1; j <= col + 1; j++) {
 					//Sjekker at brikke ikke er utenfor brettet
@@ -112,7 +112,7 @@ void Minesweeper::openTile(int row, int col) {
 
 int Minesweeper::numAdjacentMines(int row, int col) const {
 	int nearbyMines = 0;
-	/*Tar først de som ikke er i kantene
+	/*Tar fï¿½rst de som ikke er i kantene
 	if (row != 0 && row + 1 != height && col != 0 && col + 1 != width) {
 	//	for (int i = row - 1; i <= row + 1; i++) {
 	//		for (int j = col - 1; j <= col + 1; i++) {
@@ -141,7 +141,7 @@ int Minesweeper::numAdjacentMines(int row, int col) const {
 }
 
 bool Minesweeper::allMinesFound() {
-	if (closedTiles - mines == 0) { ////returnerer true hvis antall uåpnede luker = antall miner => alle miner funnet.
+	if (closedTiles - mines == 0) { ////returnerer true hvis antall uï¿½pnede luker = antall miner => alle miner funnet.
 		return true;
 	}
 	else {

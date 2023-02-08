@@ -16,7 +16,7 @@ void fillInFibonacciNumbers(int result[], int length) {
 }
 
 void printArray(int result[], int length) {
-	cout << "De "<<length<< " første fibonaccitallene er: " << endl;
+	cout << "De "<<length<< " fï¿½rste fibonaccitallene er: " << endl;
 	for (int i = 0; i < length; i++) {
 		cout << result[i] << endl;
 	}
