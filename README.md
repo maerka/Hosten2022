@@ -22,15 +22,15 @@ PYTHON-mappene - Hovedmålet har vært å lære å bruke klasser og objekter og 
  
 HTML og CSS
 
-For å forstå mer av rollen som front-end utvikler har jeg startet på et av kursene fra https://www.freecodecamp.org/learn/2022/responsive-web-design/. Jeg har gått bort fra dette kurset og heller over til udemy.
+- For å forstå mer av rollen som front-end utvikler har jeg startet på et av kursene fra https://www.freecodecamp.org/learn/2022/responsive-web-design/. Jeg har gått bort fra dette kurset og heller over til udemy.
 
 JavaScript
 
-Dette er kode basert på kurs fra udemy. Jeg har brukt tid på å lære syntaks ordentlig og å bearbeide html-dokumentet (DOM). Neste steg blir å faktisk legge til interaktive knaper og kanskje en nettside. 
+- Dette er kode basert på kurs fra udemy. Jeg har brukt tid på å lære syntaks ordentlig og å bearbeide html-dokumentet (DOM). Neste steg blir å faktisk legge til interaktive knaper og kanskje en nettside. 
 
 C++
 
-Øvingsopplegg fra et kurs på NTNU (fagkode TDT4102).
+- Øvingsopplegg fra et kurs på NTNU (fagkode TDT4102).
 
 
      
