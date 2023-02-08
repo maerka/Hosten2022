@@ -1,10 +1,10 @@
 # Hosten2022 og framover
-Dette er ting jeg har arbeidet med høsten 2022. Her laster jeg opp ferdige prosjekter. Høsten 2022 har jeg hovedsaklig jobbed med python. Fra januar 2023 har jeg begynt å kikke mer på javascript, html og css. Det ligger i egen mappe. Fra tidligere har jeg prosjekter skrevet i C# og C++. 
+Dette er ting jeg har arbeidet med høsten 2022. Her laster jeg opp ferdige prosjekter. Høsten 2022 har jeg hovedsaklig jobbed med python. Fra januar 2023 har jeg begynt å kikke mer på javascript, html og css. Fra tidligere har jeg prosjekter skrevet i C++. 
 
-PYTHON - Hovedmålet har vært å lære å bruke klasser og objekter og grafikk. I mappa finner du:
+PYTHON-mappene - Hovedmålet har vært å lære å bruke klasser og objekter og grafikk. I mappene finner du:
 
 - "Santa Game"
-      Her har jeg brukt pakken "pygame" til å lage et enkelt spill med grafikk. https://www.pygame.org/wiki/GettingStarted. Planen er å bruke dette videre i prosjektet CannonBall og diverse undervisningsopplegg (les videre). Pygame må installeres for å kunne kjøre koden. 
+      Her har jeg brukt pakken "pygame" til å lage et enkelt spill med grafikk. https://www.pygame.org/wiki/GettingStarted. Planen var å bruke dette videre i prosjektet CannonBall og diverse undervisningsopplegg (les videre). Pygame må installeres for å kunne kjøre koden. En video viser det ferdige resultatet. 
 - "BlackJack" 
       inneholder 3 filer: Card, cardDeck og main_BlackJack. Sammen utgjør det et spillet BlackJack (uten grafikk). 
 - "CannonBall"
@@ -21,13 +21,12 @@ PYTHON - Hovedmålet har vært å lære å bruke klasser og objekter og grafikk.
       Rettet mot undervisning. Planen er simulere en evolusjonsprosess. "evolusjon2_birds" er et pilotprosjekt for selve logikken bak evolusjonen. Neste steg er lage fuglene (og andre dyr) som klasser. Da blir det lettere å legge til grafikk for å gjøre det mer tilgjengelig for elvene. Til slutt vil jeg utvide programmet slik at flere parametere kan påvirke utfallet av evolusjonen. 
  
 HTML og CSS
-For å forstå mer av rollen som front-end utvikler har jeg startet på et av kursene fra https://www.freecodecamp.org/learn/2022/responsive-web-design/. Filene i mappa viser ferdig produkter og hvor langt jeg har kommet til nå. 
+For å forstå mer av rollen som front-end utvikler har jeg startet på et av kursene fra https://www.freecodecamp.org/learn/2022/responsive-web-design/. Jeg har gått bort fra dette kurset og heller over til udemy.
 
+JavaScript
+Dette er kode basert på kurs fra udemy. Jeg har brukt tid på å lære syntaks ordentlig og å bearbeide html-dokumentet (DOM). Neste steg blir å faktisk legge til interaktive knaper og kanskje en nettside. 
 
-C++ og C#
-- C# 
-      Et skript hvor jeg har prøvd meg ut med syntaks for C#.
-- C++
+C++
       Øvingsopplegg fra et kurs på NTNU (fagkode TDT4102).
 
 
