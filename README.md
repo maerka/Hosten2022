@@ -2,7 +2,8 @@
 Dette er ting jeg har arbeidet med høsten 2022. Her laster jeg opp ferdige prosjekter. Høsten 2022 har jeg hovedsaklig jobbed med python. Fra januar 2023 har jeg begynt å kikke mer på javascript, html og css. Fra tidligere har jeg prosjekter skrevet i C++. 
 
 PYTHON-mappene - Hovedmålet har vært å lære å bruke klasser og objekter og grafikk. I mappene finner du:
-
+- "Simuleringer"
+      Her har jeg laget simuleringer av hvordan 3-60 partikler vil bevege seg inni en boks. Jeg har antatt elastisk støt. Grafikken er basert på matplotlib.
 - "Santa Game"
       Her har jeg brukt pakken "pygame" til å lage et enkelt spill med grafikk. https://www.pygame.org/wiki/GettingStarted. Planen var å bruke dette videre i prosjektet CannonBall og diverse undervisningsopplegg (les videre). Pygame må installeres for å kunne kjøre koden. En video viser det ferdige resultatet. 
 - "BlackJack" 
